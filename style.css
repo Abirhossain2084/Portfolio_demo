@@ -26,6 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px ;
 }
 .nav-logo{
 
@@ -46,4 +47,21 @@ nav li,a{
     text-decoration: none;
     margin-right: 50px;
     color: #474747;
+}
+
+/* header */
+
+.header{
+
+    background-color:  #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile_pic{
+    width: 584px;
+     height: 676px;
 }
